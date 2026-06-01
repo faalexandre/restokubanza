@@ -1,16 +1,18 @@
 <script>
+	import Aside from './Aside.svelte';
 	import Footer from './Footer.svelte';
-	import Logo from './Logo.svelte';
+	import Header from './Header.svelte';
 
 	let { children } = $props();
 </script>
 
 <div class="flex min-h-screen flex-col bg-black text-white">
-	<Logo />
-
-	<main class="flex">
-		{@render children?.()}
-	</main>
-
+	<Header />
+	<div class="mx-auto flex w-full max-w-7xl flex-1 p-5">
+		<Aside />
+		<main class="flex-1">
+			{@render children?.()}
+		</main>
+	</div>
 	<Footer />
 </div>

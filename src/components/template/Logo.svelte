@@ -1,5 +1,5 @@
-<div class="container flex gap-2 border-b border-zinc-800">
+<div class="absolute container flex items-center justify-center gap-2">
 	<a class="flex p-5 text-2xl font-bold" href="/">
-		<img src="/logo-01.png" alt="Logo" class="h-16 w-16 rounded-sm" />
+		<img src="/rest.png" alt="Logo" class="container mx-auto object-cover" />
 	</a>
 </div>
