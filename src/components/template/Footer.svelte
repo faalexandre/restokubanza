@@ -1,7 +1,5 @@
-<footer>
-	<div
-		class="container flex items-center justify-center gap-2 border-t border-zinc-800 p-5 text-sm text-zinc-500"
-	>
+<footer class="flex h-16 items-center self-end border-t border-zinc-800 px-5">
+	<div>
 		<p>Copyright &copy; 2024 Resto. All rights reserved.</p>
 	</div>
 </footer>
